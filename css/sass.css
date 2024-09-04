@@ -1,0 +1,1322 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap");
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 739px;
+  gap: 0px;
+  opacity: 0px;
+  background: rgb(30, 38, 53);
+  background: -moz-radial-gradient(circle, rgb(30, 38, 53) 46%, rgb(15, 17, 20) 96%);
+  background: -webkit-radial-gradient(circle, rgb(30, 38, 53) 46%, rgb(15, 17, 20) 96%);
+  background: radial-gradient(circle, rgb(30, 38, 53) 46%, rgb(15, 17, 20) 96%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1e2635", endColorstr="#0f1114", GradientType=1);
+}
+header nav {
+  height: 56px;
+  padding: 18px 24px 16px 24px;
+  gap: 0px;
+  opacity: 0px;
+}
+header nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav .container .logo img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 68px;
+  height: 21px;
+  top: 19px;
+  left: 24px;
+  gap: 0px;
+  opacity: 0px;
+}
+header nav .container .pc-links {
+  display: none;
+}
+header nav .container .mobile-links .menu-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: 24px;
+  cursor: pointer;
+}
+header nav .container .mobile-links .menu-button span {
+  display: block;
+  height: 3px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+header nav .container .mobile-links .menu-button:hover span:nth-child(1) {
+  transform: rotate(45deg);
+}
+header nav .container .mobile-links .menu-button:hover span:nth-child(2) {
+  transform: rotate(45deg);
+}
+header nav .container .mobile-links .menu-button:hover span:nth-child(3) {
+  transform: rotate(45deg);
+}
+header nav .container .mobile-links .menu-links {
+  display: none;
+}
+header .hero .container .car-part .textarea {
+  margin-bottom: 20px;
+}
+header .hero .container .car-part .textarea h1 {
+  font-family: "Exo", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 33.6px;
+  text-align: center;
+  margin-top: 60px;
+  color: rgb(255, 255, 255);
+}
+header .hero .container .car-part .textarea h3 {
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+header .hero .container .car-part .textarea span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-family: Exo;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18.2px;
+  text-align: center;
+  color: rgb(186, 190, 196);
+}
+header .hero .container .car-part .textarea span i {
+  color: rgb(65, 119, 220);
+  width: 10.67px;
+  height: 14.67px;
+  top: 0.67px;
+  left: 2.67px;
+  gap: 0px;
+  opacity: 0px;
+}
+header .hero .container .car-part img {
+  display: block;
+  margin: 0 auto;
+  width: 280px;
+  height: 163.74px;
+  top: 275px;
+  left: 40px;
+  gap: 0px;
+  opacity: 0px;
+  transition: all 0.3s ease;
+}
+header .hero .container .car-part img:hover {
+  transform: scale(1.1);
+}
+header .hero .container .metrs {
+  padding: 10px;
+  width: 296px;
+  height: 81px;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .hero .container .metrs .card {
+  width: 69px;
+  height: 81px;
+}
+header .hero .container .metrs .card .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+header .hero .container .metrs .card .icon:hover i {
+  font-size: 15px;
+}
+header .hero .container .metrs .card .icon i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  border-radius: 50%;
+  color: rgb(255, 255, 255);
+  font-size: 10px;
+  width: 25px;
+  height: 25px;
+  background-color: rgb(17, 18, 19);
+}
+header .hero .container .metrs .card .icon i:hover i {
+  font-size: 15px;
+}
+header .hero .container .metrs .card span {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  justify-content: center;
+  font-family: Exo;
+  font-size: 10px;
+  color: rgb(255, 255, 255);
+}
+header .hero .container .metrs .card p {
+  font-family: "Exo", sans-serif;
+  color: rgb(186, 190, 196);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 13.29px;
+  text-align: center;
+}
+header .hero .container .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .hero .container .btn button {
+  position: relative;
+  border-radius: 50%;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  width: 90px;
+  height: 90px;
+  opacity: 0px;
+  border: 3px double rgb(2, 219, 138);
+  box-shadow: 0px 0px 10px 0px rgb(2, 219, 138);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+header .hero .container .btn button::before {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  width: 116px;
+  height: 116px;
+  border: 3px double rgb(2, 219, 138);
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+header .hero .container .btn button:hover {
+  transform: scale(1.2);
+  box-shadow: 0px 0px 30px 0px rgb(2, 219, 138);
+}
+
+main section .section1 {
+  height: 653px;
+  background: rgb(10, 10, 11);
+  padding: 56px, 0px, 32px, 0px;
+}
+main section .section1 .container .carimage {
+  width: 312px;
+  height: 208.09px;
+  top: 50px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+main section .section1 .container .carimage img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  size: 100%;
+  top: 30px;
+  z-index: 2;
+  transition: all 0.3s ease;
+}
+main section .section1 .container .carimage img:hover {
+  transform: scale(1.1);
+}
+main section .section1 .container .carimage .textarea {
+  width: 181px;
+  height: 95px;
+  right: 0px;
+  bottom: -50px;
+  color: rgb(255, 255, 255);
+  backdrop-filter: blur(15px);
+  opacity: 80%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  position: absolute;
+  z-index: 1;
+}
+main section .section1 .container .carimage .textarea h5 {
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin: 10px auto;
+}
+main section .section1 .container .carimage .textarea p {
+  font-family: "Exo", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+main section .section1 .container .textarea2 {
+  margin-top: 130px;
+}
+main section .section1 .container .textarea2 h3 {
+  width: 174px;
+  height: 56px;
+  top: 303px;
+  left: 24px;
+  gap: 0px;
+  opacity: 0px;
+  margin-bottom: 10px;
+  font-family: "Exo", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+main section .section1 .container .textarea2 p {
+  width: 312px;
+  height: 105px;
+  top: 375px;
+  left: 24px;
+  gap: 0px;
+  opacity: 0px;
+  margin-bottom: 30px;
+  font-family: "Exo", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+main section .section1 .container .textarea2 button {
+  width: 144px;
+  height: 53px;
+  top: 512px;
+  left: 24px;
+  padding: 16px 32px 16px 32px;
+  gap: 10px;
+  border: none;
+  border-radius: 4px;
+  opacity: 0px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(65, 119, 220);
+  transition: all 0.3s ease;
+}
+main section .section1 .container .textarea2 button:hover {
+  transform: scale(1.1);
+}
+main section .section2 {
+  height: 487px;
+  background-color: rgb(10, 10, 11);
+}
+main section .section2 .container .title h3 {
+  width: 232px;
+  margin: 0 auto;
+  font-family: "Exo", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding-bottom: 30px;
+}
+main section .section2 .container .pagination {
+  border: 1px solid red;
+  height: 20px;
+}
+main section .section2 .container .block {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  width: 800px;
+}
+main section .section2 .container .block .card {
+  position: relative;
+  width: 228px;
+  height: 279px;
+  border-radius: 16px;
+  background: rgb(30, 38, 53);
+  background: -moz-radial-gradient(circle, rgb(30, 38, 53) 46%, rgb(15, 17, 20) 96%);
+  background: -webkit-radial-gradient(circle, rgb(30, 38, 53) 46%, rgb(15, 17, 20) 96%);
+  background: radial-gradient(circle, rgb(30, 38, 53) 46%, rgb(15, 17, 20) 96%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1e2635", endColorstr="#0f1114", GradientType=1);
+}
+main section .section2 .container .block .card .proporties {
+  position: absolute;
+  top: 180px;
+  left: 20px;
+}
+main section .section2 .container .block .card .proporties ul {
+  width: 154px;
+  height: 42px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+main section .section2 .container .block .card .proporties ul li {
+  display: flex;
+  gap: 10px;
+  color: rgb(255, 255, 255);
+  list-style: none;
+  font-family: "Exo", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: left;
+}
+main section .section2 .container .block .card .proporties ul li i {
+  width: 16px;
+  height: 16px;
+  top: 298px;
+  left: 126.5px;
+  padding: 2px 1.33px 2px 1.33px;
+  gap: 0px;
+  opacity: 0px;
+  color: rgb(255, 255, 255);
+}
+main section .section2 .container .block .card .name {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 80px;
+}
+main section .section2 .container .block .card .name h2 {
+  margin: 2px;
+  font-family: "Exo", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+main section .section2 .container .block .card .name span {
+  margin: 2px;
+  font-family: "Exo", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+main section .section2 .container .block .card .price h1 {
+  position: absolute;
+  top: 240px;
+  left: 20px;
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+main section .section2 .container .block .card .price button {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 52px;
+  height: 44px;
+  padding: 12px 16px 12px 16px;
+  gap: 0px;
+  border-radius: 16px 0px 16px 0px;
+  opacity: 0px;
+  background-color: rgb(65, 119, 220);
+  border: none;
+}
+main section .section2 .container .block .card .price button i {
+  color: white;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+main section .section2 .container .block .card .price button:hover i {
+  font-size: 25px;
+}
+main section .section2 .container .block .card .img img {
+  position: absolute;
+  width: 180px;
+  height: 93.77px;
+  top: 80px;
+  left: 20px;
+  gap: 0px;
+  opacity: 0px;
+  transition: all 0.3s ease;
+}
+main section .section2 .container .block .card .img img:hover {
+  transform: scale(1.2);
+}
+main section .section3 {
+  height: 575px;
+  background-color: rgb(10, 10, 11);
+  background-image: url("../images/section3/Map.png");
+  background-position: center;
+  background-size: 150%;
+  background-repeat: no-repeat;
+}
+main section .section3 .container {
+  position: relative;
+}
+main section .section3 .container .title h1 {
+  position: absolute;
+  font-family: "Exo", sans-serif;
+  font-size: 20px;
+  top: 20px;
+  left: 30%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+main section .section3 .container .images {
+  position: relative;
+}
+main section .section3 .container .images .image1 img {
+  width: 150px;
+  height: 346.89px;
+  top: 92px;
+  left: 90px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+  transition: all 0.3s ease;
+}
+main section .section3 .container .images .image1 img:hover {
+  transform: scale(1.2);
+}
+main section .section3 .container .images .block .card {
+  position: absolute;
+  width: 111px;
+  height: 84px;
+  border-radius: 20px;
+  opacity: 0px;
+  background-color: rgba(116, 116, 116, 0.5);
+  backdrop-filter: blur(10px);
+}
+main section .section3 .container .images .block .card h3 {
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  width: 90px;
+  display: block;
+  margin: 10px auto;
+  font-weight: 600;
+  line-height: 22.4px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  opacity: 150%;
+}
+main section .section3 .container .images .block .card p {
+  font-family: "Exo", sans-serif;
+  font-size: 12px;
+  width: 50px;
+  display: block;
+  margin: 0 auto;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+main section .section3 .container .images .block .card:nth-child(1) {
+  top: 150px;
+  left: 30px;
+}
+main section .section3 .container .images .block .card:nth-child(2) {
+  top: 220px;
+  left: 180px;
+}
+main section .section3 .container .images .block .card:nth-child(3) {
+  top: 320px;
+  left: 30px;
+}
+main section .section4 {
+  height: 1839px;
+  background-color: rgb(10, 10, 11);
+}
+main section .section4 .container .title2 {
+  margin: 0;
+  padding: 30px;
+}
+main section .section4 .container .title2 h1 {
+  margin-top: 100px auto;
+  font-family: "Exo", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+main section .section4 .container .brands {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+main section .section4 .container .brands span {
+  background-color: rgb(17, 18, 19);
+  border-radius: 10px;
+  padding: 5px;
+  transition: all 0.3s ease;
+}
+main section .section4 .container .brands span:hover {
+  background-color: rgb(65, 119, 220);
+  transform: scale(1.1);
+}
+main section .section4 .container .brands span img {
+  width: 45px;
+  height: 45px;
+}
+main section .section4 .container .brands span:nth-child(1) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  font-family: "Exo", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  color: rgb(186, 190, 196);
+}
+main section .section4 .container .block {
+  margin-top: 20px;
+  padding: 5px;
+}
+main section .section4 .container .block .card {
+  position: relative;
+  margin: 35px auto;
+  width: 228px;
+  height: 279px;
+  border-radius: 16px;
+  background: rgb(30, 38, 53);
+  background: -moz-radial-gradient(circle, rgb(30, 38, 53) 46%, rgb(15, 17, 20) 96%);
+  background: -webkit-radial-gradient(circle, rgb(30, 38, 53) 46%, rgb(15, 17, 20) 96%);
+  background: radial-gradient(circle, rgb(30, 38, 53) 46%, rgb(15, 17, 20) 96%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1e2635", endColorstr="#0f1114", GradientType=1);
+}
+main section .section4 .container .block .card .name {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 80px;
+}
+main section .section4 .container .block .card .name h2 {
+  margin: 2px;
+  font-family: "Exo", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+main section .section4 .container .block .card .name span {
+  margin: 2px;
+  font-family: "Exo", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+main section .section4 .container .block .card .price h1 {
+  position: absolute;
+  top: 220px;
+  left: 20px;
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+main section .section4 .container .block .card .price button {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 52px;
+  height: 44px;
+  padding: 12px 16px 12px 16px;
+  gap: 0px;
+  border-radius: 16px 0px 16px 0px;
+  opacity: 0px;
+  background-color: rgb(65, 119, 220);
+  border: none;
+  transition: all 0.3s ease;
+}
+main section .section4 .container .block .card .price button i {
+  color: rgb(255, 255, 255);
+  transition: all 0.3s ease;
+}
+main section .section4 .container .block .card .price button:hover i {
+  transform: scale(1.2);
+}
+main section .section4 .container .block .card .img img {
+  position: absolute;
+  width: 180px;
+  height: 93.77px;
+  top: 80px;
+  left: 20px;
+  gap: 0px;
+  opacity: 0px;
+  transition: all 0.3s ease;
+}
+main section .section4 .container .block .card .img img:hover {
+  transform: scale(1.2);
+}
+main section .section5 {
+  height: 580px;
+  background-image: url("../images/section5/subscribe-bg.png");
+  background-position: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main section .section5 .container .title {
+  padding-top: 50px;
+}
+main section .section5 .container .title h1 {
+  margin-bottom: 30px;
+  font-family: "Exo", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+main section .section5 .container .title p {
+  margin: 10px;
+  font-family: "Exo", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  color: rgb(186, 190, 196);
+}
+main section .section5 .container .title button {
+  display: block;
+  width: 167px;
+  height: 49px;
+  margin: 40px auto;
+  padding: 14px;
+  gap: 0px;
+  border-radius: 4px;
+  opacity: 0px;
+  background-color: rgb(65, 119, 220);
+  border: none;
+  transition: all 0.3s ease;
+}
+main section .section5 .container .title button:hover {
+  transform: scale(1.2);
+}
+main section .section5 .container .image {
+  position: relative;
+}
+main section .section5 .container .image img {
+  position: absolute;
+  width: 400px;
+  height: 179.55px;
+  left: 50px;
+  gap: 0px;
+  opacity: 0px;
+}
+main section .section6 {
+  height: 269px;
+  background-color: rgb(10, 10, 11);
+}
+main section .section6 .container .brands {
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+main section .section6 .container .brands img:nth-child(1) {
+  width: 40px;
+  height: 40px;
+  left: 56px;
+  gap: 0px;
+  opacity: 0.4px;
+  transition: all 0.3s ease;
+}
+main section .section6 .container .brands img:nth-child(1):hover {
+  transform: scale(1.2);
+}
+main section .section6 .container .brands img:nth-child(2) {
+  width: 40px;
+  height: 13.88px;
+  transition: all 0.3s ease;
+}
+main section .section6 .container .brands img:nth-child(2):hover {
+  transform: scale(1.2);
+}
+main section .section6 .container .brands img:nth-child(3) {
+  width: 40px;
+  height: 40px;
+  left: 264px;
+  gap: 0px;
+  opacity: 0.4px;
+  transition: all 0.3s ease;
+}
+main section .section6 .container .brands img:nth-child(3):hover {
+  transform: scale(1.2);
+}
+main section .section6 .container .brands img:nth-child(4) {
+  width: 40px;
+  height: 40px;
+  top: 103px;
+  left: 56px;
+  gap: 0px;
+  opacity: 0.4px;
+  transition: all 0.3s ease;
+}
+main section .section6 .container .brands img:nth-child(4):hover {
+  transform: scale(1.2);
+}
+main section .section6 .container .brands img:nth-child(5) {
+  width: 40px;
+  height: 45.63px;
+  top: 100px;
+  left: 160px;
+  gap: 0px;
+  opacity: 0.4px;
+  transition: all 0.3s ease;
+}
+main section .section6 .container .brands img:nth-child(5):hover {
+  transform: scale(1.2);
+}
+main section .section6 .container .brands img:nth-child(6) {
+  width: 40px;
+  height: 34.69px;
+  top: 105px;
+  left: 264px;
+  gap: 0px;
+  opacity: 0.4px;
+  transition: all 0.3s ease;
+}
+main section .section6 .container .brands img:nth-child(6):hover {
+  transform: scale(1.2);
+}
+
+footer {
+  height: 677px;
+  background: rgb(30, 38, 53);
+  background: -moz-radial-gradient(circle, rgb(30, 38, 53) 46%, rgb(15, 17, 20) 96%);
+  background: -webkit-radial-gradient(circle, rgb(30, 38, 53) 46%, rgb(15, 17, 20) 96%);
+  background: radial-gradient(circle, rgb(30, 38, 53) 46%, rgb(15, 17, 20) 96%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1e2635", endColorstr="#0f1114", GradientType=1);
+}
+footer .container p {
+  margin-bottom: 0px;
+  width: 285px;
+  display: block;
+  margin: 15px auto;
+  height: 17px;
+  top: 656px;
+  left: 87px;
+  gap: 0px;
+  opacity: 0px;
+  color: rgb(186, 190, 196);
+  text-align: center;
+}
+footer .container .block .logo {
+  padding: 10px;
+}
+footer .container .block .logo img {
+  width: 86px;
+  height: 28px;
+  margin-bottom: 5px;
+}
+footer .container .block .logo p {
+  width: 201px;
+  height: 54px;
+  font-family: "Exo", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18.2px;
+  text-align: left;
+  color: rgb(186, 190, 196);
+}
+footer .container .block .links {
+  padding: 20px;
+}
+footer .container .block .links ul {
+  list-style: none;
+}
+footer .container .block .links ul span {
+  color: rgb(255, 255, 255);
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 20px;
+  display: block;
+}
+footer .container .block .links ul li {
+  margin-bottom: 10px;
+}
+footer .container .block .links ul li a {
+  font-family: "Exo", sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(186, 190, 196);
+  transition: all 0.3s ease;
+}
+footer .container .block .links ul li a:hover {
+  color: rgb(65, 119, 220);
+}
+footer .container .block .social {
+  padding-left: 20px;
+}
+footer .container .block .social span {
+  color: rgb(255, 255, 255);
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 20px;
+  display: block;
+}
+footer .container .block .social .apps {
+  width: 108px;
+  height: 20px;
+  top: 564px;
+  left: 23px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .container .block .social .apps i {
+  width: 16.67px;
+  height: 16.67px;
+  top: 1.67px;
+  left: 1.67px;
+  gap: 0px;
+  opacity: 0px;
+  color: rgb(186, 190, 196);
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  header {
+    height: 879px;
+  }
+  header nav {
+    height: 80px;
+  }
+  header nav .container {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header nav .container .logo img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 71px;
+    height: 22px;
+  }
+  header nav .container .pc-links {
+    display: flex;
+    list-style: none;
+  }
+  header nav .container .pc-links ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header nav .container .pc-links ul li a {
+    text-decoration: none;
+    font-family: "Exo", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    position: relative;
+    transition: all 0.3s ease;
+    margin-right: 30px;
+  }
+  header nav .container .pc-links ul li a::before {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: rgb(65, 119, 220);
+    color: rgb(65, 119, 220);
+    transition: 0.3s;
+  }
+  header nav .container .pc-links ul li a:hover::before {
+    width: 100%;
+  }
+  header nav .container .pc-links ul li a:hover {
+    color: rgb(65, 119, 220);
+  }
+  header nav .container .mobile-links {
+    display: none;
+  }
+  header .hero .container .car-part .textarea {
+    margin-bottom: 50px;
+  }
+  header .hero .container .car-part .textarea h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  header .hero .container .car-part .textarea h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  header .hero .container .car-part .textarea span {
+    font-size: 16px;
+  }
+  header .hero .container .car-part img {
+    width: 380px;
+    height: 222.22px;
+    top: 334px;
+    left: 450px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  header .hero .container .metrs {
+    width: 406px;
+    height: 104px;
+  }
+  header .hero .container .metrs .card {
+    width: 89px;
+    height: 104px;
+  }
+  header .hero .container .metrs .card:hover i {
+    font-size: 128px;
+  }
+  header .hero .container .metrs .card .icon i {
+    font-size: 25px;
+    width: 60px;
+    height: 60px;
+  }
+  header .hero .container .metrs .card span {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+  header .hero .container .metrs .card p {
+    font-size: 15px;
+  }
+  header .hero .container .btn button {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin-top: 30px;
+  }
+  header .hero .container .btn button::before {
+    content: "";
+    position: absolute;
+    top: 9px;
+    left: 8px;
+    width: 100px;
+    height: 100px;
+    border: 3px double rgb(2, 219, 138);
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+  header .hero .container .btn button:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 0px 30px 0px rgb(2, 219, 138);
+  }
+  main section .section1 {
+    height: 532px;
+    padding: 20px;
+  }
+  main section .section1 .container {
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main section .section1 .container .carimage {
+    width: 480px;
+    height: 372px;
+    left: 30px;
+    top: -10px;
+  }
+  main section .section1 .container .carimage img {
+    width: 480px;
+    height: 320.14px;
+  }
+  main section .section1 .container .carimage .textarea {
+    bottom: 0px;
+    right: 0px;
+  }
+  main section .section1 .container .textarea2 {
+    margin: 0 auto;
+  }
+  main section .section1 .container .textarea2 h3 {
+    width: 209px;
+    height: 68px;
+    top: 47px;
+    left: 723px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33.6px;
+    text-align: left;
+  }
+  main section .section1 .container .textarea2 p {
+    width: 401px;
+    height: 88px;
+    top: 139px;
+    left: 723px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+  }
+  main section .section2 {
+    height: 636px;
+  }
+  main section .section2 .container .title h3 {
+    width: 278px;
+    height: 68px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33.6px;
+    text-align: center;
+  }
+  main section .section2 .container .block {
+    border: 1px solid rgb(0, 0, 0);
+    width: 1400px;
+    margin: 50px auto;
+  }
+  main section .section2 .container .block .card {
+    width: 258px;
+    height: 328px;
+  }
+  main section .section2 .container .block .card .proporties {
+    top: 220px;
+    left: 10px;
+  }
+  main section .section2 .container .block .card .proporties ul {
+    width: 163px;
+    height: 44px;
+  }
+  main section .section2 .container .block .card .proporties ul li {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18.2px;
+    text-align: left;
+  }
+  main section .section2 .container .block .card .name {
+    top: 30px;
+    left: 30px;
+  }
+  main section .section2 .container .block .card .name h2 {
+    font-size: 25px;
+  }
+  main section .section2 .container .block .card .name span {
+    font-size: 18px;
+  }
+  main section .section2 .container .block .card .price h1 {
+    top: 280px;
+    font-size: 20px;
+    left: 30px;
+  }
+  main section .section2 .container .block .card .img img {
+    width: 180px;
+    height: 80.64px;
+    top: 110px;
+    left: 50px;
+  }
+  main section .section3 {
+    height: 713px;
+    background-position: center;
+    background-size: 80%;
+  }
+  main section .section3 .container .title h1 {
+    width: 162px;
+    height: 34px;
+    left: 639px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33.6px;
+    text-align: center;
+  }
+  main section .section3 .container .images .image1 img {
+    width: 200px;
+    height: 462.53px;
+    left: 610px;
+  }
+  main section .section3 .container .images .block .card {
+    width: 127px;
+    height: 92px;
+  }
+  main section .section3 .container .images .block .card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    font-family: Exo;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+  }
+  main section .section3 .container .images .block .card p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18.2px;
+    text-align: center;
+    width: 48px;
+    height: 36px;
+    top: 273px;
+    left: 730px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  main section .section3 .container .images .block .card:nth-child(1) {
+    top: 160px;
+    left: 550px;
+  }
+  main section .section3 .container .images .block .card:nth-child(2) {
+    top: 250px;
+    left: 750px;
+  }
+  main section .section3 .container .images .block .card:nth-child(3) {
+    top: 355px;
+    left: 530px;
+  }
+  main section .section4 {
+    height: 1046px;
+  }
+  main section .section4 .container .title2 h1 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33.6px;
+    text-align: center;
+  }
+  main section .section4 .container .block {
+    margin: 0 auto;
+    width: 900px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  main section .section4 .container .block .card {
+    width: 258px;
+    height: 328px;
+  }
+  main section .section4 .container .block .card .name {
+    top: 30px;
+    left: 30px;
+  }
+  main section .section4 .container .block .card .name h2 {
+    font-size: 25px;
+  }
+  main section .section4 .container .block .card .name span {
+    font-size: 18px;
+  }
+  main section .section4 .container .block .card .price h1 {
+    top: 280px;
+    font-size: 20px;
+    left: 30px;
+  }
+  main section .section4 .container .block .card .img img {
+    width: 180px;
+    height: 80.64px;
+    top: 110px;
+    left: 50px;
+  }
+  main section .section5 {
+    height: 392px;
+    background-image: url("../images/section5/subscribe-bg(1).png");
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+  }
+  main section .section5 .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 200px;
+    margin: 0 auto;
+  }
+  main section .section5 .container .title {
+    padding-top: 30px;
+    width: 375px;
+    height: 264px;
+  }
+  main section .section5 .container .title h1 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33.6px;
+    text-align: left;
+    margin: 0px;
+    margin-bottom: 20px;
+  }
+  main section .section5 .container .title p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+  }
+  main section .section5 .container button {
+    width: 174px;
+    height: 50px;
+    display: inline;
+    float: left;
+  }
+  main section .section5 .container .image {
+    position: unset;
+  }
+  main section .section5 .container .image img {
+    position: unset;
+  }
+  main section .section6 {
+    height: 204px;
+  }
+  main section .section6 .container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  main section .section6 .container .brands {
+    padding-top: 70px;
+    justify-content: center;
+    gap: 140px;
+  }
+  footer {
+    height: 330px;
+  }
+  footer .block {
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+}/*# sourceMappingURL=sass.css.map */
